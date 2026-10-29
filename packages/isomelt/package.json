@@ -1,0 +1,40 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"name": "@isomelt/isomelt",
+	"version": "0.0.0",
+	"description": "Fast full-stack web framework",
+	"keywords": [
+		"fast",
+		"framework",
+		"full",
+		"full-stack",
+		"stack",
+		"web",
+		"web framework"
+	],
+	"homepage": "https://github.com/isomelt/isomelt/tree/master/packages/isomelt#readme",
+	"bugs": {
+		"url": "https://github.com/isomelt/isomelt/issues"
+	},
+	"license": "MIT",
+	"author": "Hunar Roop Kahlon <hunarroopcodes@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/isomelt/isomelt.git",
+		"directory": "packages/isomelt"
+	},
+	"files": [
+		"./LICENSE",
+		"./README.md",
+		"./package.json"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		"./LICENSE": "./LICENSE",
+		"./package.json": "./package.json"
+	},
+	"engines": {
+		"node": ">=24.22"
+	}
+}
