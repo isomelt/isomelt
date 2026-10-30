@@ -4,7 +4,8 @@
 	"type": "module",
 	"scripts": {
 		"fmt": "oxfmt --no-error-on-unmatched-pattern",
-		"fmt:check": "oxfmt --no-error-on-unmatched-pattern --check"
+		"fmt:check": "oxfmt --no-error-on-unmatched-pattern --check",
+		"ts:check": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"oxfmt": "catalog:"
