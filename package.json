@@ -9,6 +9,9 @@
 	"devDependencies": {
 		"oxfmt": "catalog:"
 	},
+	"peerDependencies": {
+		"typescript": "catalog:"
+	},
 	"devEngines": {
 		"packageManager": {
 			"name": "pnpm",
