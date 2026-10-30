@@ -5,7 +5,8 @@
 	"scripts": {
 		"fmt": "oxfmt --no-error-on-unmatched-pattern",
 		"fmt:check": "oxfmt --no-error-on-unmatched-pattern --check",
-		"ts:check": "tsc --noEmit"
+		"ts:check": "tsc --noEmit",
+		"ts:emit": "tsc --build"
 	},
 	"devDependencies": {
 		"oxfmt": "catalog:"
