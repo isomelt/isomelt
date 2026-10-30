@@ -36,7 +36,8 @@
 	},
 	"scripts": {
 		"fmt": "pnpm run -w fmt",
-		"fmt:check": "pnpm run -w fmt:check"
+		"fmt:check": "pnpm run -w fmt:check",
+		"ts:check": "tsc --noEmit"
 	},
 	"engines": {
 		"node": ">=24.22"
